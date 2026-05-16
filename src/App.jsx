@@ -15,6 +15,7 @@ import {
 } from 'firebase/auth';
 import { getFirestore, doc, setDoc, onSnapshot } from 'firebase/firestore';
 import { getAnalytics } from "firebase/analytics";
+import { Analytics } from "@vercel/analytics/next"
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
